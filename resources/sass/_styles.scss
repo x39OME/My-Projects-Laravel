@@ -1,0 +1,71 @@
+body {
+    background-image: url("/images/background.svg");
+    background-repeat: no-repeat;
+    background-position-x: 20em;
+    background-position-y: bottom 5em;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.projects {
+    display: flex;
+}
+.card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: #f7fbff;
+}
+.status {
+    margin-bottom: 10px;
+    font-size: $small-font-size;
+}
+.card-text {
+    font-family: $font-family-text;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.card-height {
+    min-height: 275px;
+}
+
+.btn-delete {
+    background: url("/public/images/trash.svg");
+    background-repeat: no-repeat;
+    background-size: 1.1rem 1.1rem;
+    width: 20px;
+    height: 22px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 8px;
+    border: 0px;
+    outline: none;
+
+}
+.user-image {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.custom-file-label::after {
+    background-color: #495057;
+    color: #fff;
+    cursor: pointer;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5em;
+}
+
+.navbar-brand, .nav-item a{
+    color: #fff !important;
+}
+.nav-item a:hover{
+    color: #000 !important;
+}
