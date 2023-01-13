@@ -77,10 +77,10 @@ How to run the project
 - Create a New Datanase Name myprojects
 - open the projects By VSCode
 - open Terminal In VSCode
---- composer install
---- npm install && npm run dev
---- php artisan migrate
---- php artisan serve
+- composer install
+- npm install && npm run dev
+- php artisan migrate
+- php artisan serve
 ---------------------------
 http://myprojects/login
 ---------------------------
@@ -91,10 +91,10 @@ http://myprojects/login
 - Create a New Datanase Name myprojects
 - open the projects By VSCode
 - open Terminal
--- cd myprojects
---- composer install
---- npm install && npm run dev
---- php artisan migrate
+- cd myprojects
+- composer install
+- npm install && npm run dev
+- php artisan migrate
 ----------------------------
 http://myprojects.test/login
 ----------------------------
