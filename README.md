@@ -82,7 +82,7 @@ How to run the project
 - php artisan migrate
 - php artisan serve
 ---------------------------
-http://myprojects/login
+[http://myprojects/login](http://127.0.0.1:8000/projects)
 ---------------------------
 
 > Laragon
@@ -96,6 +96,6 @@ http://myprojects/login
 - npm install && npm run dev
 - php artisan migrate
 ----------------------------
-http://myprojects.test/login
+[http://myprojects.test/login](http://127.0.0.1:8000/projects)
 ----------------------------
 
